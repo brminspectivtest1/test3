@@ -1,2 +1,2 @@
-all: main.c
-	gcc main.c -o dummy
+all:	
+	make -C dummy
