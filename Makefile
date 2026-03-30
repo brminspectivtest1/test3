@@ -1,2 +1,2 @@
-all: main.c
-	gcc main.c -o dummy
+all: main.go
+	go build -o dummy main.go
